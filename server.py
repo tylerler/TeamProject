@@ -14,7 +14,7 @@ def leave(username):
     for x in playerList:
         if x == username:
             playerList.remove(username)
-#test
+#tes
 
 @bottle.route('/players')
 def players():
