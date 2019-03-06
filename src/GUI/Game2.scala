@@ -1,8 +1,5 @@
 package GUI
 
-package Game
-
-import Game.GUI2D.{player, playerCircleRadius, sceneGraphics, windowWidth}
 import javafx.scene.input.{KeyCode, KeyEvent, MouseEvent}
 import scalafx.animation.AnimationTimer
 import scalafx.application.JFXApp
