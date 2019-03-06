@@ -1,4 +1,4 @@
-package Home
+package GUI
 
 import java.util.concurrent.atomic.AtomicBoolean
 
@@ -13,6 +13,7 @@ import scalafx.geometry.{HPos, Insets, Pos}
 import scalafx.scene.Scene
 import scalafx.scene.control.{Button, Label, ProgressBar, TextField}
 import scalafx.scene.layout.{BorderPane, ColumnConstraints, GridPane, HBox}
+
 object Test4 extends JFXApp{
   hookupEvents()
   stage = new PrimaryStage {

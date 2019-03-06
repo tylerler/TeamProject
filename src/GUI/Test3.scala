@@ -1,5 +1,4 @@
-package Home
-
+package GUI
 
 import scalafx.Includes._
 import scalafx.application.JFXApp
@@ -13,7 +12,6 @@ import scalafx.scene.shape.Rectangle
 import scalafx.scene.text.Text
 import scalafx.scene.{Group, Scene}
 import scalafx.stage.{Screen, StageStyle}
-
 
 
 object Test3 extends  JFXApp{
