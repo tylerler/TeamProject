@@ -19,7 +19,7 @@ object NewGame extends JFXApp{
   var curY: Double = 0.0
   var potX: Double = 0.0
   var potY: Double = 0.0
-
+//
 
  val player = Polygon (playerX, playerY, playerX - 40,playerY +80,playerX + 40,playerY + 80)
 
