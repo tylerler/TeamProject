@@ -47,7 +47,7 @@ object NewGame extends JFXApp{
       case _ => println(keyCode.getName + " pressed with no action")
     }
   }
-  //
+  ////
 
 
   def rotateR(): Unit = {

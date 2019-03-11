@@ -25,7 +25,7 @@ object Game extends JFXApp{
       case _ => println(keyCode.getName + " pressed with no action")
     }
   }
-//
+////
   def keyPressed2(keyCode: KeyCode): Unit = {
     keyCode.getName match {
       case "A" => player.translateX.value += 20

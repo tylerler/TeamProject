@@ -65,7 +65,7 @@ object Game2 extends JFXApp {
 
     }
   }
-  //
+  ////
   val update: Long => Unit = (time: Long) => {
     for (shape <- allRectangles) {
       shape.rotate.value += 0.9
